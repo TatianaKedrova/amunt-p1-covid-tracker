@@ -5,9 +5,11 @@
 
 <Header />
 
-<main>
-<slot />
-</main>
+<div class="layout">
+	<main>
+		<slot />
+	</main>
+</div>
 
 <Footer />
 
