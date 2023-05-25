@@ -2,11 +2,11 @@
 	<ul>
 		<li><img src="/logo.png" alt="Logo" sveltekit:prefetch/></li>
 		<li><a href="/" sveltekit:prefetch>Home</a></li>
-		<li><a href="/prevention" sveltekit:prefetch>Prevention</a></li>
-		<li><a href="/qurantine" sveltekit:prefetch>Qurantine</a></li>
-		<li><a href="/pagess" sveltekit:prefetch>Pages</a></li>
-		<li><a href="/about" sveltekit:prefetch>About</a></li>
-		<li><a href="/help" sveltekit:prefetch>Help</a></li>
+		<li><a href="/" sveltekit:prefetch>Prevention</a></li>
+		<li><a href="/" sveltekit:prefetch>Qurantine</a></li>
+		<li><a href="/" sveltekit:prefetch>Pages</a></li>
+		<li><a href="/" sveltekit:prefetch>About</a></li>
+		<li><a href="/" sveltekit:prefetch>Help</a></li>
 		<li id="tracker"><a href="/tracker" sveltekit:prefetch>Tracker</a></li>
 	</ul> 
 </header>

@@ -1,3 +1,14 @@
+<h1>HOME</h1>
+
+<ul>
+	<li><a href="/home/one">one</a></li>
+	<li><a href="/home/two">two</a></li>
+	<li><a href="/home/three">three</a></li>
+</ul>
+
+
+
+
 <section class="home-main">
 	<div class="home-text">
 		<h1>Download the covid<br />app for get latest<br />update</h1>
