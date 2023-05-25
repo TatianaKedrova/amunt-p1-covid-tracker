@@ -4,7 +4,7 @@
 		<li><a href="/">Home</a></li>
 		<li><a href="/prevention">Prevention</a></li>
 		<li><a href="/qurantine">Qurantine</a></li>
-		<li><a href="/pages">Pages</a></li>
+		<li><a href="/pagess">Pages</a></li>
 		<li><a href="/about">About</a></li>
 		<li><a href="/help">Help</a></li>
 		<li id="tracker"><a href="/tracker">Tracker</a></li>
