@@ -1,1 +1,0 @@
-<h1>This is Slug Page</h1>

@@ -4,7 +4,7 @@
 		<li><a href="/" sveltekit:prefetch>Home</a></li>
 		<li><a href="/home/prevention" sveltekit:prefetch>Prevention</a></li>
 		<li><a href="/home/qurantine" sveltekit:prefetch>Qurantine</a></li>
-		<li><a href="/home/pages" sveltekit:prefetch>Pages</a></li>
+		<li><a href="/home/pagess" sveltekit:prefetch>Pagess</a></li>
 		<li><a href="/home/about" sveltekit:prefetch>About</a></li>
 		<li><a href="/home/help" sveltekit:prefetch>Help</a></li>
 		<li id="tracker"><a href="/tracker" sveltekit:prefetch>Tracker</a></li>
