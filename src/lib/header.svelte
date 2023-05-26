@@ -1,6 +1,6 @@
 <header>
 	<ul>
-		<li><img src="/logo.png" alt="Logo" sveltekit:prefetch/></li>
+		<li><img src="images/logo.png" alt="Logo" sveltekit:prefetch/></li>
 		<li><a href="/" sveltekit:prefetch>Home</a></li>
 		<li><a href="/home/prevention" sveltekit:prefetch>Prevention</a></li>
 		<li><a href="/home/qurantine" sveltekit:prefetch>Qurantine</a></li>
@@ -14,7 +14,7 @@
 
 <style lang="scss">
 	header {
-		background-color: pink;
+		background-color: white;
 		text-align: right;
 		padding: 20px 10px;
 		overflow: hidden;
