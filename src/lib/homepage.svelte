@@ -16,7 +16,7 @@
 			<button class="btn-home">How to protect</button>
 		</div>
 
-		<div class="icon-buttons">
+		<!--<div class="icon-buttons">
 			<div>
 				<a class="btn btn-icon1" href="#forward" ><span class="material-symbols-outlined">
 					forward</span></a>
@@ -29,7 +29,21 @@
 				<a class="btn btn-icon3" href="#shopping_basket"><span class="material-symbols-outlined">
 					shopping_basket</span></a>
 			</div>	
-		</div>
+		</div>-->
+
+
+        <div class="icon-buttons">
+            <div class="btn btn-icon1"><span class="material-symbols-outlined">
+                forward</span></div>
+            <div class="btn btn-icon2"><span class="material-symbols-outlined">
+                headphones</span></div>
+             <div class="btn btn-icon3"><span class="material-symbols-outlined">
+                shopping_basket</span></div>
+        </div>
+
+
+
+
 	</div>
 
 	<div class="home-img">
@@ -97,10 +111,12 @@
 	}
 
 	.icon-buttons{
-		position: relative;
+		position: absolute;
+        bottom: 0;
+        left:5%;
 	}
 
-	.btn{
+	.icon-buttons .btn{
 		color: white;
 
 		border: none;
@@ -112,6 +128,7 @@
 		padding: 14px 14px;
 		
   		cursor: pointer;
+        margin: 10px;
 	}
 
 	.btn-icon1{
