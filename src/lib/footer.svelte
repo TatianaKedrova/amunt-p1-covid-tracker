@@ -1,6 +1,6 @@
 <footer class="layout-footer">Footer</footer>
 
-<style lang="scss">
+<style>
 	.layout-footer {
 		background-color: #1b2a4e;
 		color: #8d8daf;
