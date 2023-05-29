@@ -3,6 +3,10 @@
 	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
 />
 
+<script>
+    import Homepage_icon_buttons from '$lib/homepage_icon_buttons.svelte';
+</script>
+
 <section class="home-page">
 	<div class="home-text">
 		<h1>Download the covid<br />app for get latest<br />update</h1>
@@ -16,33 +20,7 @@
 			<button class="btn-home">How to protect</button>
 		</div>
 
-		<!--<div class="icon-buttons">
-			<div>
-				<a class="btn btn-icon1" href="#forward" ><span class="material-symbols-outlined">
-					forward</span></a>
-			</div>
-			<div>
-				<a class="btn btn-icon2" href="#headphones"><span class="material-symbols-outlined">
-					headphones</span></a>
-			</div>
-			<div>
-				<a class="btn btn-icon3" href="#shopping_basket"><span class="material-symbols-outlined">
-					shopping_basket</span></a>
-			</div>	
-		</div>-->
-
-
-        <div class="icon-buttons">
-            <div class="btn btn-icon1"><span class="material-symbols-outlined">
-                forward</span></div>
-            <div class="btn btn-icon2"><span class="material-symbols-outlined">
-                headphones</span></div>
-             <div class="btn btn-icon3"><span class="material-symbols-outlined">
-                shopping_basket</span></div>
-        </div>
-
-
-
+        <Homepage_icon_buttons />
 
 	</div>
 
@@ -108,39 +86,6 @@
 		padding: 20px 55px;
 
 		position: absolute;
-	}
-
-	.icon-buttons{
-		position: absolute;
-        bottom: 0;
-        left:5%;
-	}
-
-	.icon-buttons .btn{
-		color: white;
-
-		border: none;
-		border-radius: 50%;
-
-		text-align: center;
-  		text-decoration: none;
-	
-		padding: 14px 14px;
-		
-  		cursor: pointer;
-        margin: 10px;
-	}
-
-	.btn-icon1{
-		background-color: #fe6550;
-	}
-
-	.btn-icon2{
-		background-color: #25c5de;
-	}
-
-	.btn-icon3{
-		background-color: #98c764;
 	}
 
 	.home-img {
