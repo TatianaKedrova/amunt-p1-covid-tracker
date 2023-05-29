@@ -12,6 +12,8 @@
 		position: absolute;
         bottom: 0;
         left:5%;
+		margin-bottom: 25px;
+		margin-left: -40px;
 	}
 
 	.icon-buttons .btn{
@@ -24,9 +26,10 @@
   		text-decoration: none;
 	
 		padding: 14px 14px;
+		margin: 10px;
 		
   		cursor: pointer;
-        margin: 10px;
+        
 	}
 
 	.btn-icon1{

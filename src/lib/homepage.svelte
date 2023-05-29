@@ -1,11 +1,11 @@
+<script>
+	import HomepageIconButtons from '$lib/homepage_icon_buttons.svelte';
+</script>
+
 <link
 	rel="stylesheet"
 	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
 />
-
-<script>
-    import Homepage_icon_buttons from '$lib/homepage_icon_buttons.svelte';
-</script>
 
 <section class="home-page">
 	<div class="home-text">
@@ -20,8 +20,7 @@
 			<button class="btn-home">How to protect</button>
 		</div>
 
-        <Homepage_icon_buttons />
-
+		<HomepageIconButtons />
 	</div>
 
 	<div class="home-img">
@@ -37,7 +36,6 @@
 		<img src="images/b-2.png" alt="company1" />
 	</div>
 </section>
-
 
 <style>
 	.home-page {
@@ -94,7 +92,21 @@
 		margin-bottom: 100px;
 	}
 
-	.home-companies-img{
+	.home-companies-img {
 		background-color: #ffffff;
+		width: 1600px;
+        height: 100px;
+		display: flex;
+        justify-content: space-between;
+        align-content: center;
+        border-radius: 10px;
+        position: absolute;
+        top: 730px;
+        right: 330px;
+    
+	}
+
+	.home-companies-img > img {
+        margin: 10px 50px;
 	}
 </style>
