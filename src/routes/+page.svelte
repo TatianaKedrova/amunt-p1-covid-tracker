@@ -1,8 +1,11 @@
 <script>
 	import Homepage from '$lib/homepage.svelte';
+	import Prevention from '$lib/prevention.svelte';
 </script>
 
 <Homepage />
+<Prevention />
+
 
 
 <section class="Prevention">Prevention</section>

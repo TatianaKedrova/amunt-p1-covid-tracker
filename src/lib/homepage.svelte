@@ -97,7 +97,7 @@
 		width: 1600px;
         height: 100px;
 		display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-content: center;
         border-radius: 10px;
         position: absolute;
