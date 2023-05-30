@@ -7,27 +7,27 @@
 	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
 />
 
-<section class="home-page">
-	<div class="home-text">
+<section class="homepage">
+	<div class="text">
 		<h1>Download the covid<br />app for get latest<br />update</h1>
-		<p class="text-paragraf1">
+		<p>
 			Human coronaviruses are common and are typically associated with<br />
 			mild illnesses, similar to the common cold. The corona viris Covid-19 is<br />
 			affecting 210 countries & territories around the world and 2<br />
 			international conveyances.
 		</p>
-		<div class="text-button">
-			<button class="btn-home">How to protect</button>
+		<div class="btn-container">
+			<button class="btn">How to protect</button>
 		</div>
 
 		<HomepageIconButtons />
 	</div>
 
-	<div class="home-img">
+	<div class="container-img">
 		<img src="images/phones.png" alt="Phone Mockup" />
 	</div>
 
-	<div class="home-companies-img">
+	<div class="container-companies-img">
 		<img src="images/b-2.png" alt="company1" />
 		<img src="images/b-3.png" alt="company1" />
 		<img src="images/b-4.png" alt="company1" />
@@ -38,7 +38,7 @@
 </section>
 
 <style>
-	.home-page {
+	.homepage {
 		background-color: #172462;
 		background-image: linear-gradient(#3990b7, #172462);
 		display: grid;
@@ -46,7 +46,7 @@
 		gap: 4em;
 	}
 
-	.home-text {
+	.text {
 		display: flex;
 		flex-direction: column;
 		padding-left: 150px;
@@ -54,13 +54,13 @@
 		position: relative;
 	}
 
-	.home-text h1 {
+	.text h1 {
 		color: white;
 		font-weight: bold;
 		font-size: 60px;
 	}
 
-	.home-text .text-paragraf1 {
+	.text p {
 		padding-top: 280px;
 		position: absolute;
 		color: whitesmoke;
@@ -68,12 +68,12 @@
 		font-size: 20px;
 	}
 
-	.text-button {
+	.btn-container {
 		padding-top: 120px;
 		position: relative;
 	}
 
-	.btn-home {
+	.btn{
 		color: white;
 		background-color: #121158;
 		border-color: #2b3799;
@@ -86,13 +86,13 @@
 		position: absolute;
 	}
 
-	.home-img {
+	.container-img {
 		padding-top: 60px;
 		padding-left: 100px;
 		margin-bottom: 100px;
 	}
 
-	.home-companies-img {
+	.container-companies-img {
 		background-color: #ffffff;
 		width: 1600px;
         height: 100px;
@@ -106,7 +106,7 @@
     
 	}
 
-	.home-companies-img > img {
+	.container-companies-img > img {
         margin: 10px 50px;
 	}
 </style>
