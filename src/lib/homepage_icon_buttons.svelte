@@ -34,6 +34,7 @@
 
 	.btn-icon1{
 		background-color: #fe6550;
+		
 	}
 
 	.btn-icon2{

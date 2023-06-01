@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 <script>
 	export let title;
 	export let description;
@@ -10,14 +12,10 @@
 	};
 </script>
 
-<link
-	rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-/>
 
 <div class="card">
 	<div class={`icon icon${styleVariant}`}>
-		<span class="material-symbols-outlined">{iconNames[styleVariant]}</span>
+		<span class="material-symbols-outlined" style="font-size:32px;" >{iconNames[styleVariant]}</span>
 	</div>
 	<h2>{title}</h2>
 	<p>{description}</p>
@@ -34,7 +32,7 @@
 		box-sizing: border-box;
 		cursor: pointer;
 		margin: 10px 15px;
-		padding: 15px 25px;
+		padding: 15px 45px;
 	}
 
 	h2 {
@@ -43,13 +41,19 @@
 
 	p {
 		color: #70709a;
+		font-size: 18px;
 	}
 
 	.icon {
-		width: 50px;
-		height: 50px;
-		border-radius: 10px;
-	}
+        width: 40px;
+        height: 40px;
+        padding: 12px 12px;
+        border-radius: 10px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-weight: 48px;
+       	}
 
 	.icon1 {
 		background-color: #fa4c9a;

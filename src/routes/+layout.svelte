@@ -19,7 +19,7 @@
 <style lang="scss">
 
 	:global(body) {
-		font-family: lanear_Lane;
+		font-family: 'lanear_Lane', sans-serif;
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -27,3 +27,4 @@
 	}
 
 </style>
+

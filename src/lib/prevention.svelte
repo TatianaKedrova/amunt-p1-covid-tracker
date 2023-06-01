@@ -1,3 +1,4 @@
+
 <script>
 	import PreventionCard from '$lib/prevention_card.svelte';
 </script>
@@ -11,7 +12,7 @@
 
 	<div class="row">
 		<PreventionCard
-			title="cough"
+			title="Cough"
 			description="Coughing is another key symptom, but its not just any cough, said Shaffner. It should be a dry
 		cought that ypou feel in your chest."
 			styleVariant=1
