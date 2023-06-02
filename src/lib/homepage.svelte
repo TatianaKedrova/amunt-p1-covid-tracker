@@ -49,7 +49,7 @@
 	.text {
 		display: flex;
 		flex-direction: column;
-		padding-left: 150px;
+		padding-left: 286px;
 		padding-top: 50px;
 		position: relative;
 	}
@@ -88,13 +88,13 @@
 
 	.container-img {
 		padding-top: 60px;
-		padding-left: 100px;
+		padding-left: 149px;
 		margin-bottom: 100px;
 	}
 
 	.container-companies-img {
 		background-color: #ffffff;
-		width: 1600px;
+		width: 1533px;
         height: 100px;
 		display: flex;
         justify-content: space-evenly;
@@ -102,7 +102,7 @@
         border-radius: 10px;
         position: absolute;
         top: 730px;
-        right: 330px;
+		right: 264px;
     
 	}
 

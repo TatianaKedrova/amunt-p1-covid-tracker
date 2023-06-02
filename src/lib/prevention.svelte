@@ -37,20 +37,19 @@
 <style>
 	section {
 		background-color: #171133;
+		padding-top: 50px;
 	}
 
 	.text {
 		color: white;
 		padding-top: 100px;
 		text-align: center;
-		position: relative;
+		
 	}
 
 	.text h1 {
 		font-size: 60px;
-		position: absolute;
-		top: 110px;
-		right: 600px;
+		margin-top: -1px;
 	}
 
 	.row {
@@ -58,7 +57,6 @@
 		flex-direction: row;
 		align-items: center;
 
-		height: 800px;
 		margin-left: 400px;
 	}
 </style>

@@ -1,15 +1,13 @@
 <script>
 	import Homepage from '$lib/homepage.svelte';
 	import Prevention from '$lib/prevention.svelte';
+	import Quarantine from '$lib/quarantine.svelte';
 </script>
 
 <Homepage />
 <Prevention />
+<Quarantine />
 
-
-
-<section class="Prevention">Prevention</section>
-<section class="Quarantine">Quarantine</section>
 <section class="Pagess">Pagess</section>
 <section class="About">About</section>
 <section class="Help">Help</section>
