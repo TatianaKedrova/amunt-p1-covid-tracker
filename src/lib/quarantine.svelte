@@ -1,3 +1,8 @@
+<link
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+/>
+
 <section class="container">
 	<div class="container-img">
 		<img src="images/mobiles.png" alt="Phone Mockup" />
@@ -17,6 +22,29 @@
 			<button class="btn">Download Now</button>
 		</div>
 	</div>
+
+	<div class="statistics">
+		<div>
+			<div><span class="material-symbols-outlined" style="font-size:45px;color:#8d8999;"> lock </span></div>
+			<h2>403</h2>
+			<h3>Startups</h3>
+		</div>
+		<div>
+			<div><span class="material-symbols-outlined" style="font-size:45px;color:#8d8999;"> upload </span></div>
+			<h2>120+</h2>
+			<h3>Member</h3>
+		</div>
+		<div>
+			<div><span class="material-symbols-outlined" style="font-size:45px;color:#8d8999;"> star_rate </span></div>
+			<h2>22M</h2>
+			<h3>Revenue</h3>
+		</div>
+		<div>
+			<div><span class="material-symbols-outlined" style="font-size:45px;color:#8d8999;"> favorite </span></div>
+			<h2>5643</h2>
+			<h3>Download</h3>
+		</div>
+	</div>
 </section>
 
 <style>
@@ -32,7 +60,6 @@
 	.text {
 		display: flex;
 		flex-direction: column;
-		position: relative;
 	}
 
 	.text h1 {
@@ -45,13 +72,7 @@
 		color: whitesmoke;
 		font-weight: normal;
 		font-size: 20px;
-		padding-top: 200px;
-		position: absolute;
-	}
-
-	.btn-container {
-		padding-top: 180px;
-		position: relative;
+		margin-top: -19px;
 	}
 
 	.btn {
@@ -62,11 +83,36 @@
 		border-radius: 10px;
 		border-style: none;
 		padding: 20px 55px;
-
-		position: absolute;
+		margin-top: 17px;
 	}
 
 	.container-img {
 		padding-left: 377px;
 	}
+
+	.statistics {
+		color: white;
+		text-transform: uppercase;
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		position: relative;
+  		left: 517px;
+}
+	
+
+	.statistics h2{
+		font-size: 33px;
+	}
+
+	.statistics h3{
+		font-size: 14px;
+		margin-top: -15px;
+		font-weight: 400;
+	}
+
+
+
+
+
 </style>
