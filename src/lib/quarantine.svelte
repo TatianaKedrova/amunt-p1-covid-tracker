@@ -51,7 +51,7 @@
 	}
 
 	.text p {
-		color: whitesmoke;
+		color: #8d8999;
 		font-weight: normal;
 		font-size: 20px;
 		margin-top: -19px;
