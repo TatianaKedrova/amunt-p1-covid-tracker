@@ -1,6 +1,6 @@
 <header>
 	<ul>
-		<li><img src="images/logo.png" alt="Logo" sveltekit:prefetch/></li>
+		<li><img src="images/logo.png" alt="Logo" sveltekit:prefetch /></li>
 		<li><a href="/" sveltekit:prefetch>Home</a></li>
 		<li><a href="/home/prevention" sveltekit:prefetch>Prevention</a></li>
 		<li><a href="/home/qurantine" sveltekit:prefetch>Qurantine</a></li>
@@ -8,9 +8,8 @@
 		<li><a href="/home/about" sveltekit:prefetch>About</a></li>
 		<li><a href="/home/help" sveltekit:prefetch>Help</a></li>
 		<li id="tracker"><a href="/tracker" sveltekit:prefetch>Tracker</a></li>
-	</ul> 
+	</ul>
 </header>
-
 
 <style lang="scss">
 	header {
@@ -44,10 +43,10 @@
 		float: right;
 		position: relative;
 		margin-right: 50px;
-        margin-top: -10px;
+		margin-top: -10px;
 
-        padding-left:  40px;
-        padding-right: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
 
 		transition: 0.3s ease;
 	}

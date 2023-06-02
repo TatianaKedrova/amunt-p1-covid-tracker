@@ -73,7 +73,7 @@
 		position: relative;
 	}
 
-	.btn{
+	.btn {
 		color: white;
 		background-color: #121158;
 		border-color: #2b3799;
@@ -95,18 +95,17 @@
 	.container-companies-img {
 		background-color: #ffffff;
 		width: 1533px;
-        height: 100px;
+		height: 100px;
 		display: flex;
-        justify-content: space-evenly;
-        align-content: center;
-        border-radius: 10px;
-        position: absolute;
-        top: 730px;
+		justify-content: space-evenly;
+		align-content: center;
+		border-radius: 10px;
+		position: absolute;
+		top: 730px;
 		right: 264px;
-    
 	}
 
 	.container-companies-img > img {
-        margin: 10px 50px;
+		margin: 10px 50px;
 	}
 </style>

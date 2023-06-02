@@ -1,8 +1,6 @@
-
 <script>
 	import PreventionCard from '$lib/prevention_card.svelte';
 </script>
-
 
 <section>
 	<div class="text">
@@ -15,21 +13,21 @@
 			title="Cough"
 			description="Coughing is another key symptom, but its not just any cough, said Shaffner. It should be a dry
 		cought that ypou feel in your chest."
-			styleVariant=1
+			styleVariant="1"
 		/>
 
 		<PreventionCard
 			title="Difficulty breathing"
 			description="Shortness of breath can be a third--and very serious--manifistacion of Covid-19, and it can
 			occur on its own, without a cough."
-			styleVariant=2
+			styleVariant="2"
 		/>
 
 		<PreventionCard
 			title="Fever"
 			description="Fever is a key symptom, experts say. Dont fixate on a number, but know its really not a
 			fever untill your temperature reaches at least 100."
-			styleVariant=3
+			styleVariant="3"
 		/>
 	</div>
 </section>
@@ -44,7 +42,6 @@
 		color: white;
 		padding-top: 100px;
 		text-align: center;
-		
 	}
 
 	.text h1 {

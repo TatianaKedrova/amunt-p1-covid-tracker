@@ -11,9 +11,9 @@
 			nihil quibusdam dolores accusantium quae beatae perspiciatis laboriosam molestias modi nostrum
 			reprehenderit<br />
 			ipsa sit, saepe, voluptatum veniam.
-            <br />
-            <br />
-            <br />
+			<br />
+			<br />
+			<br />
 		</p>
 		<h2>02. We're are ready to start now<br /><br /><br /></h2>
 		<h2>03. We deliver the highest quality design<br /><br /><br /></h2>
@@ -28,30 +28,29 @@
 		flex-direction: column;
 	}
 
-    .container-title{
-        text-align: center;
-    }
+	.container-title {
+		text-align: center;
+	}
 
-    .container-title h1 {
+	.container-title h1 {
 		font-size: 60px;
-        color: white;
-        margin-top: 15px;
+		color: white;
+		margin-top: 15px;
 	}
 	.container-title h3 {
 		font-size: 18px;
-        color: #8d8999;
+		color: #8d8999;
 	}
 
 	.container-text {
-        color: white;
+		color: white;
 		background-color: #1b2a4e;
 		width: 1000px;
-        height: 500px;
-        margin-left: 25%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 25px 65px;
-
+		height: 500px;
+		margin-left: 25%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding: 25px 65px;
 	}
 
 	.container-text p {
