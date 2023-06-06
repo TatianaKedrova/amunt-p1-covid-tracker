@@ -82,6 +82,7 @@
 		border-radius: 30px;
 		border-style: solid;
 		padding: 20px 55px;
+		cursor: pointer;
 
 		position: absolute;
 	}

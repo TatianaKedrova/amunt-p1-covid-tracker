@@ -46,14 +46,21 @@
 		color: white;
 		background-color: #1b2a4e;
 		width: 1000px;
-		height: 500px;
-		margin-left: 25%;
+		
+		margin-left: 23%;
 		margin-top: 50px;
 		margin-bottom: 50px;
 		padding: 25px 65px;
+		
 	}
 
 	.container-text p {
 		color: #8d8999;
 	}
+
+	.container-text h2 {
+		cursor: pointer;;
+	}
+
+	
 </style>

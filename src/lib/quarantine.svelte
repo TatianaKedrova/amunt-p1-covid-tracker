@@ -66,9 +66,12 @@
 		border-style: none;
 		padding: 20px 55px;
 		margin-top: 17px;
+		cursor: pointer;
 	}
 
 	.container-img {
 		padding-left: 377px;
 	}
+
+	
 </style>
