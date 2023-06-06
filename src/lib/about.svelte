@@ -25,7 +25,7 @@
 
 	.container-gradient {
 		background-image: linear-gradient(to right, #1d119f, #06cbeb);
-		width: 1400px;
+		width: 1315px;
 		border-radius: 10px;
         padding: 57px;
         margin-top: 150px;

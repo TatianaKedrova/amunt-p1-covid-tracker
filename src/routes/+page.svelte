@@ -4,6 +4,7 @@
 	import Quarantine from '$lib/quarantine.svelte';
 	import Pages from '$lib/pages.svelte';
 	import About from '$lib/about.svelte';
+	import Help from '$lib/help.svelte';
 </script>
 
 <Homepage />
@@ -11,3 +12,4 @@
 <Quarantine />
 <Pages />
 <About />
+<Help />

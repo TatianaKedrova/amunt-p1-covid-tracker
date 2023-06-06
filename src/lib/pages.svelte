@@ -1,4 +1,4 @@
-<div class="container-page">
+<div class="container-page-pages">
 	<div class="container-title">
 		<h3>Faqs</h3>
 		<h1>Frequently Asked<br />Questions</h1>
@@ -22,7 +22,7 @@
 </div>
 
 <style>
-	.container-page {
+	.container-page-pages {
 		background-color: #171133;
 		display: flex;
 		flex-direction: column;
@@ -47,7 +47,7 @@
 		background-color: #1b2a4e;
 		width: 1000px;
 		
-		margin-left: 23%;
+		margin-left: 461px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 		padding: 25px 65px;
