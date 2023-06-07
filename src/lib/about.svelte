@@ -29,7 +29,7 @@
 		border-radius: 10px;
         padding: 57px;
         margin-top: 150px;
-
+		margin-bottom: 100px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}

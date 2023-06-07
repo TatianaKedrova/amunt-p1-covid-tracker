@@ -1,13 +1,13 @@
 <script>
-    import foto_1 from '$lib/assets/blog-1.jpg';
-    
 
     export let text;
+    export let img;
 
 </script>
 
+
 <div class="container-article">
-    <div><img  width="180px" alt="BlogImage"  src={foto_1}/></div>
+    <div><img  width="180px" alt="BlogImage"  src={img}/></div>
     <div class="article">
         <h2>{text}</h2>
     </div>
@@ -26,7 +26,7 @@
 		flex-direction: row;
 		justify-content: center;
 		color: white;
-		margin: 100px;
+		margin: 28px;
 	}
 
 	.article {
