@@ -1,27 +1,28 @@
 <script>
-
-    export let text;
-    export let img;
-
+	export let text;
+	export let img;
 </script>
 
-
 <div class="container-article">
-    <div><img  width="180px" alt="BlogImage"  src={img}/></div>
-    <div class="article">
-        <h2>{text}</h2>
-    </div>
-    <div class="info">
-       <div class= "symbol"><span class="material-symbols-outlined"> timer </span></div><p>9 sept 2020</p>
-       <div class= "symbol" style="margin-left:20px;"><span class="material-symbols-outlined" > chat_bubble </span></div><p>21 comment</p>
-    </div>
-    <div class="link">
-        <p><strong>Continue</strong></p>
-    </div>
+	<div><img width="180px" alt="BlogImage" src={img} /></div>
+	<div class="article">
+		<h2>{text}</h2>
+	</div>
+	<div class="info">
+		<div class="symbol"><span class="material-symbols-outlined"> timer </span></div>
+		<p>9 sept 2020</p>
+		<div class="symbol" style="margin-left:20px;">
+			<span class="material-symbols-outlined"> chat_bubble </span>
+		</div>
+		<p>21 comment</p>
+	</div>
+	<div class="link">
+		<p><strong>Continue</strong></p>
+	</div>
 </div>
 
 <style>
-    .container-article {
+	.container-article {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -33,12 +34,12 @@
 		padding-left: 50px;
 		position: relative;
 		top: 40px;
-        width: 854px;
+		width: 854px;
 	}
 
-    .article h2{
-        word-wrap: break-word;
-    }
+	.article h2 {
+		word-wrap: break-word;
+	}
 
 	.info {
 		display: flex;
@@ -47,16 +48,16 @@
 		left: 686px;
 	}
 
-    .info p{
-        padding-left: 15px;
-    }
+	.info p {
+		padding-left: 15px;
+	}
 
 	.link p {
 		text-decoration: underline;
 	}
 
-    .info .symbol{
-        position: relative;
-        top: 10px;
-    }
+	.info .symbol {
+		position: relative;
+		top: 10px;
+	}
 </style>

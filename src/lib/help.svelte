@@ -5,7 +5,6 @@
 	import foto2 from '$lib/assets/blog-2.jpg';
 	import foto3 from '$lib/assets/blog-3.jpg';
 
-
 	let infoList = [
 		{ text: 'Can Covid-19 be caught from a person who has no symptomps?', img: foto1 },
 		{ text: 'What you need to know About Novel Corona Virus Covid-19', img: foto2 },
