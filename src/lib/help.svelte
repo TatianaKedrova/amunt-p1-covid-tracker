@@ -28,5 +28,6 @@
 		background-color: #171133;
 		display: flex;
 		flex-direction: column;
+		padding: 100px;
 	}
 </style>

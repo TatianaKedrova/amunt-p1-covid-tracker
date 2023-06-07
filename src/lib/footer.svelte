@@ -51,13 +51,16 @@
 				</ul>
 			</div>
 		</div>
+		<hr>
 	</div>
+
+
 </footer>
 
 <style>
 	.layout-footer {
 		background-color: #1b2a4e;
-		padding: 100px 0;
+		padding: 150px;
 	}
 
 	.container-footer {
@@ -67,6 +70,7 @@
 
 	.row {
 		display: flex;
+		margin-bottom: 100px;
 	}
 
 	ul {
@@ -111,5 +115,15 @@
 		line-height: 40px;
 		border-radius: 50%;
 		color: #ffffff;
+	}
+
+	.container-footer-2{
+		width: 100%;
+	}
+
+
+	hr{
+		color: #293f73;
+		width: 100%;
 	}
 </style>

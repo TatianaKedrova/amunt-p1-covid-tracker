@@ -42,6 +42,7 @@
 		text-align: center;
 		position: relative;
 		left: 517px;
+		padding-top: 50px;
 	}
 
 	.statistics h2 {
