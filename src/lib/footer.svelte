@@ -1,7 +1,7 @@
 <footer class="layout-footer">
 	<div class="container-footer">
 		<div class="row">
-			<div class="footer-col">
+			<div class="footer-col" style="flex-shrink: 0">
 				<img src="images/logo-white.png" alt="Logo" />
 				<h5>
 					These droplets can land on object and surfaces around the person such as tables, doorknobs
@@ -60,8 +60,6 @@
 	.layout-footer {
 		background-color: #1b2a4e;
 		padding: 100px 0;
-		margin: 0;
-		box-sizing: border-box;
 	}
 
 	.container-footer {
@@ -73,7 +71,6 @@
 		display: flex;
 	}
 
-
 	ul {
 		list-style: none;
 		padding-left: 0px;
@@ -81,13 +78,13 @@
 
 	.footer-col {
 		width: 25%;
-		padding: 0 15px;
+		padding: 0 20px;
 	}
 
 	.footer-col h5 {
 		font-size: 15px;
 		color: #6c668b;
-		line-height: 1.5;
+		line-height: 2;
 		font-weight: 500;
 	}
 
@@ -96,7 +93,6 @@
 		color: white;
 		font-weight: 600;
 	}
-
 
 	.footer-col ul li a {
 		font-size: 16px;
@@ -118,4 +114,6 @@
 		border-radius: 50%;
 		color: #ffffff;
 	}
+
+
 </style>
