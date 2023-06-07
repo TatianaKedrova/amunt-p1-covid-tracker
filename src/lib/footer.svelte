@@ -12,49 +12,47 @@
 					<a href="/"><i class="bi bi-twitter" /></a>
 					<a href="/"><i class="bi bi-instagram" /></a>
 					<a href="/"><i class="bi bi-linkedin" /></a>
-			    </div>
+				</div>
 			</div>
-				<div class="footer-col">
-					<h4>Quick Links</h4>
-					<ul>
-						<li><a href="/">Prevention</a></li>
-						<li><a href="/">Qurantine</a></li>
-						<li><a href="/">About</a></li>
-						<li><a href="/">Help</a></li>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>About</h4>
-					<ul>
-						<li><a href="/">Hand Wash</a></li>
-						<li><a href="/">Social Distance</a></li>
-						<li><a href="/">Isolate</a></li>
-						<li><a href="/">Difference</a></li>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>About</h4>
-					<ul>
-						<li><a href="/">Hand Wash</a></li>
-						<li><a href="/">Social Distance</a></li>
-						<li><a href="/">Isolate</a></li>
-						<li><a href="/">Difference</a></li>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>Help</h4>
-					<ul>
-						<li><a href="/">Hand Wash</a></li>
-						<li><a href="/">Social Distance</a></li>
-						<li><a href="/">Isolate</a></li>
-						<li><a href="/">Difference</a></li>
-					</ul>
-				</div>
-			
+			<div class="footer-col" style="margin-top: -12px">
+				<h4>Quick Links</h4>
+				<ul>
+					<li><a href="/">Prevention</a></li>
+					<li><a href="/">Qurantine</a></li>
+					<li><a href="/">About</a></li>
+					<li><a href="/">Help</a></li>
+				</ul>
+			</div>
+			<div class="footer-col" style="margin-top: -12px">
+				<h4>About</h4>
+				<ul>
+					<li><a href="/">Hand Wash</a></li>
+					<li><a href="/">Social Distance</a></li>
+					<li><a href="/">Isolate</a></li>
+					<li><a href="/">Difference</a></li>
+				</ul>
+			</div>
+			<div class="footer-col" style="margin-top: -12px">
+				<h4>About</h4>
+				<ul>
+					<li><a href="/">Hand Wash</a></li>
+					<li><a href="/">Social Distance</a></li>
+					<li><a href="/">Isolate</a></li>
+					<li><a href="/">Difference</a></li>
+				</ul>
+			</div>
+			<div class="footer-col" style="margin-top: -12px">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/">Hand Wash</a></li>
+					<li><a href="/">Social Distance</a></li>
+					<li><a href="/">Isolate</a></li>
+					<li><a href="/">Difference</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </footer>
-
 
 <style>
 	.layout-footer {
@@ -114,6 +112,4 @@
 		border-radius: 50%;
 		color: #ffffff;
 	}
-
-
 </style>
