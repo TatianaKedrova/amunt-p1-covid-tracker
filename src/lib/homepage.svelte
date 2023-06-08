@@ -9,6 +9,7 @@
 
 <section class="homepage">
 	<div class="text">
+		<HomepageIconButtons />
 		<h1>Download the covid app for get latest update</h1>
 		<p>
 			Human coronaviruses are common and are typically associated with mild illnesses, similar to
@@ -18,8 +19,6 @@
 		<div class="btn-container">
 			<button class="btn">How to protect</button>
 		</div>
-
-		<HomepageIconButtons />
 	</div>
 
 	<div class="container-img">
@@ -50,9 +49,10 @@
 		display: flex;
 		flex-direction: column;
 		padding-left: 300px;
+		position: relative;
 	}
 	.text h1 {
-		color: white;
+		color: whitesmoke;
 		font-weight: bold;
 		font-size: 60px;
 	}

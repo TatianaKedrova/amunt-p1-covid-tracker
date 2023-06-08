@@ -6,9 +6,9 @@
 
 <style>
 	.icon-buttons {
-		position: absolute;
 		left: 1%;
-	
+		bottom:8%;
+		position: fixed;
 	}
 
 	.icon-buttons .btn {

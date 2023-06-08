@@ -1,9 +1,11 @@
 <script>
 	import Header from '$lib/header.svelte';
 	import Footer from '$lib/footer.svelte';
+	import HomepageIconButtons from '../lib/homepage_icon_buttons.svelte';
 </script>
 
 <Header />
+
 <div class="layout">
 	<main>
 		<slot />
