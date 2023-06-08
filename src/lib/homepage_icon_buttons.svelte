@@ -7,25 +7,21 @@
 <style>
 	.icon-buttons {
 		position: absolute;
-		bottom: 0;
-		left: 5%;
-		margin-bottom: 25px;
-		margin-left: -40px;
+		left: 1%;
+	
 	}
 
 	.icon-buttons .btn {
 		color: white;
-
 		border: none;
 		border-radius: 50%;
-
 		text-align: center;
 		text-decoration: none;
-
 		padding: 14px 14px;
 		margin: 10px;
-
 		cursor: pointer;
+		height: 30px;
+		width: 30px;
 	}
 
 	.btn-icon1 {

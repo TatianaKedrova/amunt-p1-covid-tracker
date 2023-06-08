@@ -9,12 +9,11 @@
 
 <section class="homepage">
 	<div class="text">
-		<h1>Download the covid<br />app for get latest<br />update</h1>
+		<h1>Download the covid app for get latest update</h1>
 		<p>
-			Human coronaviruses are common and are typically associated with<br />
-			mild illnesses, similar to the common cold. The corona viris Covid-19 is<br />
-			affecting 210 countries & territories around the world and 2<br />
-			international conveyances.
+			Human coronaviruses are common and are typically associated with mild illnesses, similar to
+			the common cold. The corona viris Covid-19 is affecting 210 countries & territories around the
+			world and 2 international conveyances.
 		</p>
 		<div class="btn-container">
 			<button class="btn">How to protect</button>
@@ -44,16 +43,14 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 4em;
+		padding: 50px;
 	}
 
 	.text {
 		display: flex;
 		flex-direction: column;
-		padding-left: 286px;
-		padding-top: 50px;
-		position: relative;
+		padding-left: 300px;
 	}
-
 	.text h1 {
 		color: white;
 		font-weight: bold;
@@ -61,16 +58,14 @@
 	}
 
 	.text p {
-		padding-top: 280px;
-		position: absolute;
 		color: whitesmoke;
 		font-weight: normal;
 		font-size: 20px;
+		margin-top: -19px;
 	}
 
 	.btn-container {
-		padding-top: 120px;
-		position: relative;
+		margin-top: 2%;
 	}
 
 	.btn {
@@ -83,13 +78,10 @@
 		border-style: solid;
 		padding: 20px 55px;
 		cursor: pointer;
-
-		position: absolute;
 	}
 
 	.container-img {
-		padding-top: 60px;
-		padding-left: 149px;
+		padding-left: 221px;
 		margin-bottom: 100px;
 	}
 
@@ -102,11 +94,17 @@
 		align-content: center;
 		border-radius: 10px;
 		position: absolute;
-		top: 730px;
+		top: 769px;
 		right: 264px;
 	}
 
 	.container-companies-img > img {
 		margin: 10px 50px;
+	}
+
+	@media only screen and (max-width: 2006px) {
+		.text p {
+			width: 80%;
+		}
 	}
 </style>
