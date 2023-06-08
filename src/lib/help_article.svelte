@@ -50,10 +50,12 @@
 
 	.info p {
 		padding-left: 15px;
+		cursor: pointer;
 	}
 
 	.link p {
 		text-decoration: underline;
+		cursor: pointer;
 	}
 
 	.info .symbol {
