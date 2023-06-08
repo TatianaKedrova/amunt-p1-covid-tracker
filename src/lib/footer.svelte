@@ -1,11 +1,11 @@
 <footer class="layout-footer">
 	<div class="container-footer">
 		<div class="row">
-			<div class="footer-col" style="flex-shrink: 0">
+			<div class="footer-col">
 				<img src="images/logo-white.png" alt="Logo" />
 				<h5>
-					These droplets can land on object and surfaces around the person such as tables, doorknobs
-					and handrails.
+					These droplets can land on object and<br /> surfaces around the person such as tables,<br
+					/> doorknobs and handrails.
 				</h5>
 				<div class="social-links">
 					<a href="/"
@@ -103,39 +103,31 @@
 				</ul>
 			</div>
 		</div>
-		<hr/>
+		<hr />
 		<div class="copyright-text">
 			<h6>© Copyright 2020. All Rights Reserved</h6>
-			<h6>Design by <span style="color:#ffffff">DexignZone</span></h6>
+			<h6>Design by <span>DexignZone</span></h6>
 		</div>
-
 	</div>
 </footer>
 
 <style>
 	.layout-footer {
 		background-color: #1b2a4e;
-		padding: 150px;
-	}
-
-	.container-footer {
-		max-width: 1414px;
-		margin: auto;
 	}
 
 	.row {
 		display: flex;
+		justify-content: space-evenly;
 		margin-bottom: 100px;
+		padding-top: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
 	}
 
 	ul {
 		list-style: none;
 		padding-left: 0px;
-	}
-
-	.footer-col {
-		width: 25%;
-		padding: 0 20px;
 	}
 
 	.footer-col h5 {
@@ -174,16 +166,19 @@
 
 	hr {
 		color: #293f73;
-		width: 100%;
+		width: 1000%;
 	}
 
-	.copyright-text{
+	.copyright-text {
 		color: #6c668b;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		padding-left: 320px;
+		padding-right: 330px;
 	}
 
-
-
+	.copyright-text h6 span {
+		color: #ffffff;
+	}
 </style>
