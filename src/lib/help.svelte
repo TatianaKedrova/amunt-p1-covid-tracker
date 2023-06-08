@@ -17,7 +17,7 @@
 	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,0,200"
 />
 
-<div class="container-page-help">
+<div class="container-page-help" id="help">
 	{#each infoList as info}
 		<HelpArticle {...info} />
 	{/each}

@@ -1,4 +1,4 @@
-<section class="container-page-about">
+<section class="container-page-about" id="about">
 	<div class="container-gradient">
 		<div class="text">
 			<h1>Get the simple app<br />for latest news</h1>

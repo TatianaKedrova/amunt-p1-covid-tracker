@@ -2,7 +2,7 @@
 	import PreventionCard from '$lib/prevention_card.svelte';
 </script>
 
-<section>
+<section id="prevention">
 	<div class="text">
 		<h3>App Feature</h3>
 		<h1>Basic Feature You Will Get<br />When You Use</h1>

@@ -7,7 +7,7 @@
 	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 />
 
-<section class="container">
+<section class="container" id="qurantine">
 	<div class="container-img">
 		<img src="images/mobiles.png" alt="Phone Mockup" />
 	</div>

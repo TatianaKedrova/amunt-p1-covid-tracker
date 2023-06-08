@@ -1,15 +1,27 @@
+<script>
+	function scrollIntoView({ target }) {
+		const el = document.querySelector(target.getAttribute('href'));
+		if (!el) return;
+    el.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+
 <header>
 	<ul>
 		<li><img src="images/logo.png" alt="Logo" sveltekit:prefetch /></li>
 		<li><a href="/" sveltekit:prefetch>Home</a></li>
-		<li><a href="/home/prevention" sveltekit:prefetch>Prevention</a></li>
-		<li><a href="/home/qurantine" sveltekit:prefetch>Qurantine</a></li>
-		<li><a href="/home/pagess" sveltekit:prefetch>Pagess</a></li>
-		<li><a href="/home/about" sveltekit:prefetch>About</a></li>
-		<li><a href="/home/help" sveltekit:prefetch>Help</a></li>
-		<li id="tracker"><a href="/tracker" sveltekit:prefetch>Tracker</a></li>
+		<li><a href="#prevention" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Prevention</a></li>
+		<li><a href="#qurantine" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Qurantine</a></li>
+		<li><a href="#pages" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Pages</a></li>
+		<li><a href="#about" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>About</a></li>
+		<li><a href="#help" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Help</a></li>
+		<li id="tracker"><a href="/tracker" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Tracker</a></li>
 	</ul>
 </header>
+
 
 <style lang="scss">
 	header {

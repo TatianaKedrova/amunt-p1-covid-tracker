@@ -1,4 +1,4 @@
-<div class="container-page-pages">
+<div class="container-page-pages" id="pages">
 	<div class="container-title">
 		<h3>Faqs</h3>
 		<h1>Frequently Asked<br />Questions</h1>
@@ -46,12 +46,11 @@
 		color: white;
 		background-color: #1b2a4e;
 		width: 1000px;
-		
+
 		margin-left: 461px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 		padding: 25px 65px;
-		
 	}
 
 	.container-text p {
@@ -59,8 +58,6 @@
 	}
 
 	.container-text h2 {
-		cursor: pointer;;
+		cursor: pointer;
 	}
-
-	
 </style>

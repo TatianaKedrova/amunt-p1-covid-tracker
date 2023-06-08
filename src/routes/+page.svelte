@@ -7,9 +7,12 @@
 	import Help from '$lib/help.svelte';
 </script>
 
+
+<main>
 <Homepage />
 <Prevention />
 <Quarantine />
 <Pages />
 <About />
 <Help />
+</main>

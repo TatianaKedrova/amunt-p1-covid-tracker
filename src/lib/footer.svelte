@@ -166,7 +166,7 @@
 
 	hr {
 		color: #293f73;
-		width: 1000%;
+		width: 100%;
 	}
 
 	.copyright-text {
