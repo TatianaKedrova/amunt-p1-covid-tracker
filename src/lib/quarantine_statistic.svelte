@@ -35,13 +35,14 @@
 
 <style>
 	.statistics {
+		width: 100%;
 		color: white;
 		text-transform: uppercase;
 		display: flex;
 		justify-content: space-between;
 		text-align: center;
 		position: relative;
-		left: 517px;
+		left: 450px;
 		padding-top: 50px;
 	}
 

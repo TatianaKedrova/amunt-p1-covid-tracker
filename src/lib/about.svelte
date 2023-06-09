@@ -18,9 +18,11 @@
 
 <style>
 	.container-page-about {
+		width: 100%;
 		background-color: #171133;
 		display: flex;
 		justify-content: center;
+		
 	}
 
 	.container-gradient {

@@ -23,6 +23,7 @@
 
 <style>
 	.container-page-pages {
+		width: 100%;
 		background-color: #171133;
 		display: flex;
 		flex-direction: column;
@@ -43,14 +44,14 @@
 	}
 
 	.container-text {
+		width: 50%;
 		color: white;
 		background-color: #1b2a4e;
-		width: 1000px;
 
-		margin-left: 461px;
+		margin-left: 371px;
 		margin-top: 50px;
 		margin-bottom: 50px;
-		padding: 25px 65px;
+		padding: 55px 82px;
 	}
 
 	.container-text p {

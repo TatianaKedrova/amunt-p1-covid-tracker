@@ -31,6 +31,7 @@
 
 <style>
 	.container {
+		width: 100%;
 		background-color: #171133;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -70,8 +71,6 @@
 	}
 
 	.container-img {
-		padding-left: 377px;
+		padding-left: 269px;
 	}
-
-	
 </style>

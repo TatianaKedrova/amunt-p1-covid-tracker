@@ -113,6 +113,7 @@
 
 <style>
 	.layout-footer {
+		width: 100%;
 		background-color: #1b2a4e;
 	}
 
@@ -123,6 +124,7 @@
 		padding-top: 100px;
 		padding-left: 200px;
 		padding-right: 200px;
+		
 	}
 
 	ul {

@@ -25,9 +25,11 @@
 
 <style>
 	.container-page-help {
+		width: 100%;
 		background-color: #171133;
 		display: flex;
 		flex-direction: column;
-		padding: 100px;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 </style>

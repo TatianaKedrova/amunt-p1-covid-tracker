@@ -34,8 +34,10 @@
 
 <style>
 	section {
+		width: 100%;
 		background-color: #171133;
 		padding-top: 50px;
+		width: 100%;
 	}
 
 	.text {
@@ -52,8 +54,6 @@
 	.row {
 		display: flex;
 		flex-direction: row;
-		align-items: center;
-
-		margin-left: 400px;
+		justify-content: center;
 	}
 </style>

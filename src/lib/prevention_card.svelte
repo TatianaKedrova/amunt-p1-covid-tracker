@@ -25,6 +25,7 @@
 
 <style>
 	.card {
+		width: 100%;
 		background-color: #ffffff;
 		display: inline-block;
 		width: 400px;

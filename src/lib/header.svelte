@@ -29,6 +29,7 @@
 
 <style lang="scss">
 	header {
+		width: 100%;
 		background-color: white;
 		text-align: right;
 		padding: 20px 10px;

@@ -7,7 +7,7 @@
 <style>
 	.icon-buttons {
 		left: 1%;
-		bottom:11%;
+		bottom: 3%;
 		position: fixed;
 	}
 

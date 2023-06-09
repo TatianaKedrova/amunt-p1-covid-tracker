@@ -23,11 +23,13 @@
 
 <style>
 	.container-article {
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		color: white;
 		margin: 28px;
+		padding-right: 100px;
 	}
 
 	.article {
@@ -35,6 +37,7 @@
 		position: relative;
 		top: 40px;
 		width: 854px;
+		margin-right: 100px;
 	}
 
 	.article h2 {
@@ -45,7 +48,7 @@
 		display: flex;
 		flex-direction: row;
 		position: absolute;
-		left: 686px;
+		left: 549px;
 	}
 
 	.info p {
