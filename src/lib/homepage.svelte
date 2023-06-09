@@ -37,6 +37,7 @@
 
 <style>
 	.homepage {
+		width: 2006px;
 		background-color: #172462;
 		background-image: linear-gradient(#3990b7, #172462);
 		display: grid;
@@ -49,7 +50,6 @@
 		display: flex;
 		flex-direction: column;
 		padding-left: 300px;
-		position: relative;
 	}
 	.text h1 {
 		color: whitesmoke;
@@ -62,6 +62,7 @@
 		font-weight: normal;
 		font-size: 20px;
 		margin-top: -19px;
+		line-height: 33px;
 	}
 
 	.btn-container {
@@ -74,21 +75,21 @@
 		border-color: #2b3799;
 		text-transform: uppercase;
 		font-weight: bold;
-		border-radius: 30px;
+		border-radius: 70px;
 		border-style: solid;
-		padding: 20px 55px;
+		padding: 25px 72px;
 		cursor: pointer;
 	}
 
 	.container-img {
-		padding-left: 221px;
+		padding-left: 152px;
 		margin-bottom: 100px;
 	}
 
 	.container-companies-img {
 		background-color: #ffffff;
 		width: 1533px;
-		height: 100px;
+		height: 135px;
 		display: flex;
 		justify-content: space-evenly;
 		align-content: center;
@@ -102,9 +103,15 @@
 		margin: 10px 50px;
 	}
 
-	@media only screen and (max-width: 2006px) {
-		.text p {
-			width: 80%;
-		}
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {
+	}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {
+	}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
 	}
 </style>
