@@ -8,27 +8,25 @@
 	}
 </script>
 
-<header>
+<nav>
 	<ul>
-		<li><img src="images/logo.png" alt="Logo" sveltekit:prefetch /></li>
-		<li><a href="/" sveltekit:prefetch>Home</a></li>
+		<li><img src="images/logo.png" alt="Logo" /></li>
+		<li><a href="/home">Home</a></li>
 		<li>
-			<a href="#prevention" sveltekit:prefetch on:click|preventDefault={scrollIntoView}
-				>Prevention</a
-			>
+			<a href="#prevention" on:click|preventDefault={scrollIntoView}>Prevention</a>
 		</li>
 		<li>
-			<a href="#qurantine" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Qurantine</a>
+			<a href="#qurantine" on:click|preventDefault={scrollIntoView}>Qurantine</a>
 		</li>
-		<li><a href="#pages" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Pages</a></li>
-		<li><a href="#about" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>About</a></li>
-		<li><a href="#help" sveltekit:prefetch on:click|preventDefault={scrollIntoView}>Help</a></li>
-		<li id="tracker"><a href="/tracker" sveltekit:prefetch>Tracker</a></li>
+		<li><a href="#pages" on:click|preventDefault={scrollIntoView}>Pages</a></li>
+		<li><a href="#about" on:click|preventDefault={scrollIntoView}>About</a></li>
+		<li><a href="#help" on:click|preventDefault={scrollIntoView}>Help</a></li>
+		<li id="tracker"><a href="/tracker">Tracker</a></li>
 	</ul>
-</header>
+</nav>
 
-<style lang="scss">
-	header {
+<style>
+	nav {
 		width: 100%;
 		background-color: white;
 		text-align: right;
@@ -36,15 +34,15 @@
 		overflow: hidden;
 		position: sticky;
 		top: 0;
-		z-index:1;
+		z-index: 1;
 	}
 
-	header li {
+	nav li {
 		display: inline;
 		padding-left: 10px;
 	}
 
-	header li a {
+	nav li a {
 		text-decoration: none;
 		font-size: 16px;
 		color: #8d8daf;
@@ -52,11 +50,11 @@
 		transition: 0.3s ease;
 	}
 
-	header li a:hover {
+	nav li a:hover {
 		color: royalblue;
 	}
 
-	header ul #tracker a {
+	nav ul #tracker a {
 		color: white;
 		background-color: #3639ae;
 		border-radius: 30px;
@@ -71,11 +69,11 @@
 		transition: 0.3s ease;
 	}
 
-	header ul #tracker a:hover {
+	nav ul #tracker a:hover {
 		background-color: #293090;
 	}
 
-	header li img {
+	nav li img {
 		width: 180px;
 		float: left;
 		margin-top: -5px;
