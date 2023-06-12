@@ -21,7 +21,7 @@
 		<li><a href="#pages" on:click|preventDefault={scrollIntoView}>Pages</a></li>
 		<li><a href="#about" on:click|preventDefault={scrollIntoView}>About</a></li>
 		<li><a href="#help" on:click|preventDefault={scrollIntoView}>Help</a></li>
-		<li id="tracker"><a href="/tracker">Tracker</a></li>
+		<li id="tracker"><a href="/home/tracker">Tracker</a></li>
 	</ul>
 </nav>
 
