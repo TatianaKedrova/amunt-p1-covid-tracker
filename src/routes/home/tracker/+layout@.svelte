@@ -1,6 +1,3 @@
-
-
-
 <div class="layout">
 	<main>
 		<slot />

@@ -4,7 +4,6 @@
 </script>
 
 <Header />
-
 <div class="layout">
 	<main>
 		<slot />
