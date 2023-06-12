@@ -1,3 +1,3 @@
-<h1>Hola Tracker</h1>
+<h1>Hola Tracker!</h1>
 
 <slot />
