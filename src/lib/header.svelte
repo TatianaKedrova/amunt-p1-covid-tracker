@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+	 import { base } from '$app/paths';
+
 	function scrollIntoView({ target }) {
 		const el = document.querySelector(target.getAttribute('href'));
 		if (!el) return;
@@ -10,18 +12,14 @@
 
 <nav>
 	<ul>
-		<li><img src="images/logo.png" alt="Logo" /></li>
-		<li><a href="/home">Home</a></li>
-		<li>
-			<a href="#prevention" on:click|preventDefault={scrollIntoView}>Prevention</a>
-		</li>
-		<li>
-			<a href="#qurantine" on:click|preventDefault={scrollIntoView}>Qurantine</a>
-		</li>
+		<li><a href="{base}/"><li><img src="images/logo.png" alt="Logo" /></li></a></li>
+		<li><a href="{base}/">Home</a></li>
+		<li><a href="#prevention" on:click|preventDefault={scrollIntoView}>Prevention</a></li>
+		<li><a href="#qurantine" on:click|preventDefault={scrollIntoView}>Qurantine</a></li>
 		<li><a href="#pages" on:click|preventDefault={scrollIntoView}>Pages</a></li>
 		<li><a href="#about" on:click|preventDefault={scrollIntoView}>About</a></li>
 		<li><a href="#help" on:click|preventDefault={scrollIntoView}>Help</a></li>
-		<li id="tracker"><a href="/home/tracker">Tracker</a></li>
+		<li id="tracker"><a href="{base}/tracker">Tracker</a></li>
 	</ul>
 </nav>
 

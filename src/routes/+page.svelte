@@ -5,14 +5,18 @@
 	import Pages from '$lib/pages.svelte';
 	import About from '$lib/about.svelte';
 	import Help from '$lib/help.svelte';
+	import Header from '$lib/header.svelte';
+	import Footer from '$lib/footer.svelte';
 </script>
 
 
 <main>
+	<Header />
 <Homepage />
 <Prevention />
 <Quarantine />
 <Pages />
 <About />
 <Help />
+<Footer />
 </main>
