@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	 import { base } from '$app/paths';
 
 	function scrollIntoView({ target }) {

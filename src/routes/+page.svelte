@@ -11,7 +11,7 @@
 
 
 <main>
-	<Header />
+<Header />
 <Homepage />
 <Prevention />
 <Quarantine />
