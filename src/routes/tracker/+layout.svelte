@@ -1,8 +1,14 @@
-<div class="layout">
-	<main>
-		<slot />
-	</main>
-</div>
+<script>
+	import SideNav from '$lib/sidenav.svelte';
+	import SideBar from '$lib/sidebar.svelte';
+</script>
+
+<main>
+	<div class="layout">
+		<SideNav />
+		<SideBar />
+	</div>
+</main>
 
 <style>
 	:global(body) {
@@ -16,7 +22,10 @@
 		border: none;
 		text-decoration: none;
 		list-style: none;
+	}
 
-		background: rgb(233, 233, 233);
+	.layout {
+		display: flex;
+		flex-direction: row;
 	}
 </style>

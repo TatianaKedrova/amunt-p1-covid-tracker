@@ -1,11 +1,12 @@
 
 
 
-<div class="layout">
+
 	<main>
+		<div class="layout">
 		<slot />
+	</div>
 	</main>
-</div>
 
 
 <style>
