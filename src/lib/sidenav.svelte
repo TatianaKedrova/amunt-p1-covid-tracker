@@ -12,62 +12,34 @@
 		<div class="navbar">
 			<div class="logo">
 				<a href="{base}/"> <img src="images/covid-defult.svg" alt="Logo" /></a>
-				<h1>Covid-19 Tracker</h1>
 			</div>
 			<ul>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined"> pie_chart</span>
-						<span class="nav-item">Charts</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined"> pie_chart</span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined">data_table</span>
-						<span class="nav-item">Tables</span>
-					</a> 
+					<a href="/tracker"><span class="icon material-symbols-outlined">data_table</span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined">dataset</span>
-						<span class="nav-item">Dashboards</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined">dataset</span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined"> folder </span>
-						<span class="nav-item">Ajax</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined"> folder </span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined"> content_copy </span>
-						<span class="nav-item">Top 10</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined"> content_copy </span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined"> trending_up </span>
-						<span class="nav-item">Statistics</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined"> trending_up </span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined"> language </span>
-						<span class="nav-item">World</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined"> language </span></a>
 				</li>
 				<li>
-					<a href="/tracker">
-						<span class="fas material-symbols-outlined"> chat_bubble </span>
-						<span class="nav-item">Countries</span>
-					</a>
+					<a href="/tracker"><span class="icon material-symbols-outlined"> chat_bubble </span></a>
 				</li>
 				<li>
-					<a href="/" class="logout">
-						<span class="fas material-symbols-outlined">group_work</span>
-						<span class="nav-item">Log out</span>
-					</a>
+					<a href="/" class="logout"><span class="icon material-symbols-outlined">group_work</span></a>
 				</li>
 			</ul>
 		</div>
@@ -98,22 +70,12 @@
 		display: flex;
 		align-items: center;
 		text-align: center;
-		margin: 20px 0 0 20px;
-
-		transition: all 0.5 ease;
+		margin: 30px 0 0 20px;
 	}
 
 	.logo img {
 		width: 50px;
 		height: 50px;
-	}
-
-	.logo h1 {
-		margin-left: 1rem;
-		text-transform: uppercase;
-		font-weight: bold;
-		padding-left: 15px;
-		font-size: 18px;
 	}
 
 	ul {
@@ -128,46 +90,28 @@
 	li a {
 		text-decoration: none;
 		font-size: 16px;
-		color: rgb(85, 83, 83);
-		position: relative;
-		font-size: 14px;
 		display: table;
-		width: 300px;
-		padding: 10px;
-	}
 
-	.fas {
-		position: relative;
-		width: 70px;
-		height: 40px;
-		top: 14px;
-		font-size: 40px;
-		text-align: center;
+		margin: 10px;
 		color: #3639ae;
 	}
 
-	a:hover .fas {
-		color: white;
-	}
-
-	.nav-item {
-		width: 50px;
-		font-size: 18px;
-		text-align: center;
-		position: relative;
-		top: 12px;
-		margin-left: 15px;
-	}
-
 	a:hover {
-		background: #3639ae;
 		color: white;
+		background: #3639ae;
+		border-radius: 10px;
+		height: 70px;
 	}
 
-	nav:hover {
-		width: 280px;
-		transition: all 0.5s ease;
+	.icon {
+		position: relative;
+		width: 70px;
+		height: 60px;
+		top: 14px;
+		font-size: 40px;
+		text-align: center;
 	}
+
 	.logout {
 		position: absolute;
 		bottom: 40px;
