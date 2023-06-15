@@ -17,4 +17,11 @@
 		box-sizing: border-box;
 		width: 100%;
 	}
+
+	@font-face {
+		font-family: 'lanear_Lane';
+		font-style: normal;
+		font-weight: 400;
+		src: url('%sveltekit.assets%/lanear_Lane.woff') format('woff');
+	}
 </style>

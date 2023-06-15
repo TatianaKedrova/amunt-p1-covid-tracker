@@ -25,7 +25,7 @@
 					<a href="/tracker">
 						<span class="fas material-symbols-outlined">data_table</span>
 						<span class="nav-item">Tables</span>
-					</a>
+					</a> 
 				</li>
 				<li>
 					<a href="/tracker">

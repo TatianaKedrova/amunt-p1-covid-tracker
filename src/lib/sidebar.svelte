@@ -60,7 +60,7 @@
 <style>
 	section {
 		border-right: solid #ebe4e4 2px;
-		width: 480px;
+		width: 447px;
 		height: 110vh;
 		top: 0;
 		bottom: 0;

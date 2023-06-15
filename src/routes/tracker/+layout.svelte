@@ -7,6 +7,8 @@
 	<div class="layout">
 		<SideNav />
 		<SideBar />
+		<slot />
+		
 	</div>
 </main>
 
@@ -27,5 +29,7 @@
 	.layout {
 		display: flex;
 		flex-direction: row;
+		background: #f7f8fc;
+		
 	}
 </style>
