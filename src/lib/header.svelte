@@ -1,5 +1,5 @@
 <script>
-	 import { base } from '$app/paths';
+	import { base } from '$app/paths';
 
 	function scrollIntoView({ target }) {
 		const el = document.querySelector(target.getAttribute('href'));
@@ -25,7 +25,6 @@
 
 <style>
 	nav {
-		width: 100%;
 		background-color: white;
 		text-align: right;
 		padding: 20px 10px;

@@ -34,10 +34,8 @@
 
 <style>
 	section {
-		width: 100%;
 		background-color: #171133;
 		padding-top: 50px;
-		width: 100%;
 	}
 
 	.text {

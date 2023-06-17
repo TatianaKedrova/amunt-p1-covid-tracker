@@ -25,7 +25,6 @@
 
 <style>
 	.container-page-help {
-		width: 100%;
 		background-color: #171133;
 		display: flex;
 		flex-direction: column;

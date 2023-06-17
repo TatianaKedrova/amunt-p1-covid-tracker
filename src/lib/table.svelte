@@ -4,7 +4,10 @@
 	import Pagination from '$lib/pagination.svelte';
 </script>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 
 <div class="w3-container">
 	<h2>Ajax Data Table - Covid-19 - Country Wise State</h2>
@@ -15,8 +18,8 @@
 	</div>
 
 	<div class="w3-responsive">
-		<table class="w3-table-all w3-xlarge">
-			<tr class="headers">
+		<table class="w3-table-all w3-xlarge ">
+			<tr class="headers ">
 				<th>Flag</th>
 				<th>Country</th>
 				<th>Cases</th>
@@ -30,43 +33,7 @@
 			</tr>
 			<tr>
 				<td>flag</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-				<td>50</td>
-			</tr>
-			<tr>
-				<td>50</td>
-				<td>50</td>
-				<td>94</td>
-				<td>94</td>
-				<td>94</td>
-				<td>94</td>
-				<td>94</td>
-				<td>94</td>
-				<td>94</td>
-				<td>50</td>
-			</tr>
-			<tr>
-				<td>50</td>
-				<td>50</td>
-				<td>67</td>
-				<td>67</td>
-				<td>67</td>
-				<td>67</td>
-				<td>67</td>
-				<td>67</td>
-				<td>67</td>
-				<td>50</td>
-			</tr>
-			<tr>
-				<td>flag</td>
-				<td>50</td>
+				<td>USA</td>
 				<td>50</td>
 				<td>50</td>
 				<td>50</td>
@@ -78,7 +45,43 @@
 			</tr>
 			<tr>
 				<td>flag</td>
+				<td>India</td>
+				<td>60</td>
+				<td>70</td>
+				<td>94</td>
+				<td>94</td>
+				<td>94</td>
+				<td>94</td>
+				<td>94</td>
 				<td>50</td>
+			</tr>
+			<tr>
+				<td>flag</td>
+				<td>Brazil</td>
+				<td>67</td>
+				<td>67</td>
+				<td>67</td>
+				<td>67</td>
+				<td>67</td>
+				<td>67</td>
+				<td>67</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>flag</td>
+				<td>France</td>
+				<td>50</td>
+				<td>50</td>
+				<td>50</td>
+				<td>50</td>
+				<td>50</td>
+				<td>50</td>
+				<td>50</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>flag</td>
+				<td>UK</td>
 				<td>50</td>
 				<td>50</td>
 				<td>50</td>
@@ -150,9 +153,9 @@
 			</tr>
 		</table>
 		<div class="pagination">
-		<h3>Showing 1 to 10 of 225 entires</h3>
-		<Pagination />
-	</div>
+			<h3>Showing 1 to 10 of 225 entires</h3>
+			<Pagination />
+		</div>
 	</div>
 </div>
 
@@ -166,6 +169,22 @@
 	hr {
 		margin: 30px -20px 20px;
 	}
+	
+	h2 {
+		color: #1b204e;
+		font-size: 24px;
+		font-weight: bold;
+		margin: 20px 0 20px 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.headers {
+		font-size: 16px;
+		color: #1b204e;
+	}
 
 	.search-select {
 		display: flex;
@@ -173,27 +192,15 @@
 		justify-content: space-between;
 		margin-bottom: 10px;
 	}
-    h2{
-        color: #1b204e;
-        font-size: 24px;
-        font-weight: bold;
-        margin: 20px 0 20px 20px;
-    }
 
-	.headers{
-		font-size: 16px;
-		color: #1b204e;
-	}
-
-	h3{
-		font-size: 16px;
-	}
-
-	.pagination{
+	.pagination {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		padding: 20px;
 	}
 
+	
+
+	
 </style>

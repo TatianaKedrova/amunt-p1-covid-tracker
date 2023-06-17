@@ -18,32 +18,30 @@
 
 <style>
 	.container-page-about {
-		width: 100%;
 		background-color: #171133;
 		display: flex;
 		justify-content: center;
-		
 	}
 
 	.container-gradient {
 		background-image: linear-gradient(to right, #1d119f, #06cbeb);
 		width: 1315px;
 		border-radius: 10px;
-        padding: 57px;
-        margin-top: 150px;
+		padding: 57px;
+		margin-top: 150px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.text {
 		padding-left: 93px;
-        padding-top: 35px;
-        color: white;
+		padding-top: 35px;
+		color: white;
 	}
 
 	.text h1 {
 		font-size: 60px;
-        width: 643px;
+		width: 643px;
 	}
 
 	.text p {
@@ -55,11 +53,11 @@
 		padding-left: 185px;
 	}
 
-    .container-img > img {
-        width: 314px;
+	.container-img > img {
+		width: 314px;
 	}
 
-    .btn {
+	.btn {
 		color: black;
 		background-color: #ffffff;
 		text-transform: uppercase;
