@@ -1,18 +1,24 @@
 <script>
+import { onMount } from 'svelte'; 
+
 	//  let info = []
 	//  onMount(async() => {
 	//	info = await getInfo();
 	//  });
 
-	const getInfo = async () => {
-		const res = await fetch('https://api.covidtracking.com/v1/us/daily.json');
-		const data = await res.json();
-		const filteredData = data.slice(0, 1);
-		console.log(filteredData);
-		return filteredData;
-	};
+	 const getInfo = async () => {
+	 	const res = await fetch('https://api.covidtracking.com/v1/states/daily.json');
+	 	const data = await res.json();
+	 	const filteredData = data.slice(0, 1);
+	 	console.log(filteredData);
+	 	return filteredData;
+	 };
 
 	// $: console.log(info);
+
+
+
+
 </script>
 
 <section>

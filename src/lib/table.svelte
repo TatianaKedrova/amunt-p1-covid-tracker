@@ -2,12 +2,25 @@
 	import Select from '$lib/select.svelte';
 	import Search from '$lib/search.svelte';
 	import Pagination from '$lib/pagination.svelte';
+
+
+	fetch('https://covid-193.p.rapidapi.com/statistics', {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '361b72e903msh262aae2aecbe518p1fa763jsn0c1ccd8bae7e',
+		'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
+	}
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch (err => {
+	console.error(err);
+});
+
 </script>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
 <div class="w3-container">
 	<h2>Ajax Data Table - Covid-19 - Country Wise State</h2>
@@ -18,8 +31,8 @@
 	</div>
 
 	<div class="w3-responsive">
-		<table class="w3-table-all w3-xlarge ">
-			<tr class="headers ">
+		<table class="w3-table-all w3-xlarge">
+			<tr class="headers">
 				<th>Flag</th>
 				<th>Country</th>
 				<th>Cases</th>
@@ -169,7 +182,7 @@
 	hr {
 		margin: 30px -20px 20px;
 	}
-	
+
 	h2 {
 		color: #1b204e;
 		font-size: 24px;
@@ -199,8 +212,4 @@
 		justify-content: space-between;
 		padding: 20px;
 	}
-
-	
-
-	
 </style>
