@@ -1,16 +1,12 @@
-
-
-
-
-	<main>
-		<div class="layout">
+<main>
+	<div class="layout">
 		<slot />
 	</div>
-	</main>
-
+</main>
 
 <style>
 	:global(body) {
+		width: 100%;
 		font-family: 'lanear_Lane', sans-serif;
 		margin: 0;
 		padding: 0;

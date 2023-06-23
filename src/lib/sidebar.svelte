@@ -16,9 +16,6 @@ import { onMount } from 'svelte';
 
 	// $: console.log(info);
 
-
-
-
 </script>
 
 <section>

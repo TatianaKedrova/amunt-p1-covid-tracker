@@ -37,7 +37,6 @@
 
 <style>
 	.homepage {
-		width: 100%;
 		background-color: #172462;
 		background-image: linear-gradient(#3990b7, #172462);
 		display: grid;
